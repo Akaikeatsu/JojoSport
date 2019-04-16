@@ -1,0 +1,1164 @@
+body{
+    margin: 0%;
+    background: #ffffff;
+}
+header{
+    background-color: #733a48;
+    height: 73px;
+}
+nav{
+    background-color: #dad2d4;
+    height: 57px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    float: right;
+}
+
+#terminos-legales{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat';
+  text-align: center;
+  font-size: 75%;
+}
+
+#info-extra{
+    font-family: 'Poiret One';
+    background-color: #733a48;
+    color: white;
+    height: 120px;
+    padding: 1%;
+  }
+
+#info-extra img{
+    height: 40px;
+}
+
+#redes{
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+#llamanos{
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+#sugerencias{
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+/*************************************************************/
+
+#logoJoJo{
+    height: 50px;
+    margin: 20px;
+}
+
+#section-portada{
+    width: auto;
+    float: left;
+}
+
+nav a:link
+{ 
+text-decoration:none; 
+} 
+
+#menu-header a:link{
+    text-decoration: none;
+}
+
+nav a:hover 
+{
+
+}
+
+#menu-header{
+    float: right;
+    padding: 0.5%;
+    text-align: center;
+}
+
+#menu-header li{
+    list-style: none;
+    display: inline;
+   text-align: center;
+    margin: 0 70px 0 0;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+   text-align: center;
+    margin: 0 100px 0 0;
+}
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    
+ }
+
+nav li a {
+   font-family: 'Poiret One';
+   font-size: 100%;
+   color: rgb(0, 0, 0);
+ }
+
+ #menu-header li a{
+    font-family: 'Poiret One';
+    font-size: 100%;
+    color: white;
+ }
+
+ #header-logo{
+     float: left;
+     height: 69px ;
+     width: 20%;
+ }
+
+#buscador{
+   float: left;
+   padding: 1.3%;
+}
+
+#buscador button{
+    font-family: 'Poiret One';
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #733a48;
+    border: 0;
+    cursor: pointer;
+ }
+
+ #busca {
+    background: url("../media/lupa.png") no-repeat 0px 5px;
+    background-color: white;
+    background-size: 24px;
+    width: 500px;
+    border: 0;
+    padding: 10px 10px 10px 30px;
+    font-family: 'Poiret One';
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+  }
+
+
+  #menu-header img{
+      height: 20px;
+  }
+
+
+
+#menu-ingresa-registrarse img{
+    height: 20px;
+}
+
+#section-ingresar,#section-registrar{
+    font-family: 'Montserrat';
+    font-size: 80%;
+    padding: 7% 30% 10% 30%;
+    width: auto;
+    height: auto;
+}
+
+ #mandar-datos{
+    outline: none;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border: 0;
+    width: 25%;
+    text-align: center;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-size: 100%;
+    float: right;
+}
+
+#section-ingresar #mandar-datos:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#section-registrar #mandar-datos:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#section-ingresar a:link
+{ 
+text-decoration:none; 
+}
+
+#section-ingresar a:hover
+{ 
+color:black; 
+} 
+
+#section-ingresar  h1{
+   color:  rgb(0, 0, 0);
+   margin:10px 0;
+   padding-bottom:10px;
+   width:180px;
+   color:#78788c;
+   border-bottom:3px solid #78788c;
+}
+
+input{
+    width:92%;
+    padding:10px;
+    background:none;
+    outline:none;
+    border:0;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2;
+}
+
+input:focus{
+    border-bottom:2px solid #78788c;
+}
+
+
+#section-registrar  h1{
+    color:  rgb(0, 0, 0);
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#78788c;
+    border-bottom:3px solid #78788c;
+ }
+/*******************************************************/
+
+ 
+/**********************slider******************************/
+.slider {
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 30s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+#section-portada img {
+    width: 100%;
+    height: 420px;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+/********************productos********************************************************/
+
+.principal{
+    padding:1% 1% 1% 5%;
+    font-family: 'Montserrat';
+    width: auto;
+    min-width: 33em;
+}
+
+#catalogo p{
+    text-align: center;
+    margin: 0;
+}
+
+#detallesProducto p{
+    text-align:left;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+#productoMuestra{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 400px;
+    float: left;
+    padding:1% 1% 1% 1%;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 80%;
+}
+
+#productoMuestra #nombre{
+    color: #733a48;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+#productoMuestra #detalles{
+    font-size: 110%;
+    padding: 1%;
+}
+
+#productoMuestra #detalles a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#productoMuestra img{
+    height: 200px;
+    width: 200px;
+    display:block;
+    margin:auto;
+}
+
+#productoMuestra img:hover{
+    height: 300px;
+    width: 300px;
+}
+
+
+#retorno{
+    height: 250px;
+    background-color: #733a48;
+    color: #ffffff;
+}
+
+#filter form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form.MenuFill{
+    top:11%;
+    right: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    background-color: rgb(165, 54, 54);
+}
+input.Filtrado{
+    color: #ffffff;
+    padding: 2px;
+    border-bottom : 0;
+    width: 100%;
+    background-color: #733a48;
+}
+select{
+    width: 100%;
+}
+
+
+/***/
+
+.infoProducto{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding:5% 15% 45% 15%;
+    font-family: 'Montserrat';
+    font-size: 80%;
+}
+
+.infoProducto a{
+    background-color: rgb(165, 54, 54);
+    color: #ffffff;
+    width: auto;
+    padding:3% 3% 3% 3%;
+    font-family: 'Montserrat';
+    font-size: 100%;
+    text-decoration: none;
+    float: right;
+}
+
+#imagenProducto{
+    float: left;
+    width: 550px;
+}
+
+#imagenProducto img{
+   height: 550px;
+   width: 550px;
+}
+
+#detallesProducto{
+    padding:1% 1% 1% 1%;
+    float: left;
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+}
+form.login {
+    width:auto;
+    height:auto;
+    background:#e6e6e6;
+    padding:20px 30px;
+    box-sizing:border-box;
+}
+#productoMuestraForm{
+    background:rgb(165, 54, 54);
+}
+#productoMuestrasubmit{    
+    color: #ffffff;
+    border-bottom:0;
+}
+#infoProductoForm{
+    background-color: rgb(165, 54, 54);
+    color: #ffffff;
+    width: auto;
+    padding: 3% 3% 3% 3%;
+    font-family: 'Montserrat';
+    font-size: 100%;
+    text-decoration: none;
+    float: right;
+}
+
+
+
+
+
+
+
+
+/*************************responsivo********************************************************/
+
+
+@media screen and (max-width: 1300px){
+    #menu-header li{
+        display: inline;
+        margin: 0 40px 0 0;
+    }
+
+    #section-portada {
+        float: left;
+        width: auto;
+    }
+ 
+    #section-ingresar{
+        float: none;
+        width: auto;
+      }
+    
+      #ingresar-datos{
+        width: 90%;
+    }
+    
+    #mandar-datos{
+        width: 40%;
+    }
+    #section-ingresar,#section-registrar{
+        padding: 7% 30% 10% 30%;
+        width: auto;
+        height: auto;
+    }
+
+    #imagenProducto{
+        float: none;
+        width: auto;
+    }
+    
+    #imagenProducto img{
+       height: 550px;
+       width: 550px;
+       display:block;
+       margin:auto;
+    }
+    
+    #detallesProducto{
+        float: none;
+        width: auto;
+    }
+    #detallesProducto img{
+        height: 45px;
+    
+    }
+    
+    .infoProducto{
+        padding:5% 15% 0% 15%;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    #busca {
+        width: 430px;
+      }
+  
+     #menu-header li{
+      display: inline;
+      margin: 0 30px 0 0;
+  }
+
+    nav li{
+      display: inline;
+      margin: 0 90px 0 0;
+  }
+  
+    #section-portada {
+        float: left;
+        width: auto;
+    }
+    #section-ingresar{
+        float: none;
+        width: auto;
+      }
+    
+      #ingresar-datos{
+        width: 90%;
+    }
+    
+    #mandar-datos{
+        width: 40%;
+    }
+    #section-ingresar,#section-registrar{
+        padding: 8% 29% 10% 29%;
+        width: auto;
+        height: auto;
+    }
+    #imagenProducto{
+        float: none;
+        width: auto;
+    }
+    
+    #imagenProducto img{
+       height: 550px;
+       width: 550px;
+       display:block;
+       margin:auto;
+    }
+    
+    #detallesProducto{
+        float: none;
+        width: auto;
+    }
+    #detallesProducto img{
+        height: 45px;
+    
+    }
+    
+    .infoProducto{
+        padding:5% 15% 0% 15%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    header {
+        height: auto;
+        width: auto;
+    }
+  
+    #header-logo{
+      float: none;
+      height: auto;
+      width: auto;
+  }
+  
+  #buscador{
+      float: none;
+      text-align: center;
+   }
+   
+    #busca {
+        width: 400px;
+     }
+  
+     #menu-header{
+      float: none;
+      height: auto;
+      width: auto;
+     }
+  
+     #menu-header li{
+      display: inline;
+      margin: 0 40px 0 0;
+  }
+  
+    nav {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+  
+    nav li{
+    
+      display: inline;
+      margin: 0 60px 0 0;
+  }
+
+  
+    #logoJoJo{
+      display:block;
+      margin:auto;
+  }
+  
+    #section-portada {
+        float: left;
+        width: auto;
+    }
+  
+    #section-ingresar{
+        float: none;
+        width: auto;
+      }
+    
+      #ingresar-datos{
+        width: 92%;
+    }
+    
+    #mandar-datos{
+        width: 40%;
+    }
+    #section-ingresar,#section-registrar{
+        padding: 10% 25% 10% 25%;
+        width: auto;
+        height: auto;
+    }
+  
+    #productoMuestra img:hover{
+        height: 200px;
+        width: 200px;
+    }
+    #imagenProducto{
+        float: none;
+        width: auto;
+    }
+    
+    #imagenProducto img{
+       height: 450px;
+       width: 450px;
+       display:block;
+       margin:auto;
+    }
+    
+    #detallesProducto{
+        float: none;
+        width: auto;
+    }
+    #detallesProducto img{
+        height: 55px;
+    
+    }
+    
+    .infoProducto{
+        padding:5% 15% 0% 15%;
+    }
+}
+
+
+@media screen and (max-width: 810px){
+    header {
+        height: auto;
+        width: auto;
+    }
+  
+    #header-logo{
+      float: none;
+      height: auto;
+      width: auto;
+  }
+  
+  #buscador{
+      float: none;
+      text-align: center;
+   }
+   
+    #busca {
+        width: 400px;
+     }
+  
+     #menu-header{
+      float: none;
+      height: auto;
+      width: auto;
+     }
+  
+     #menu-header li{
+      display: inline;
+      margin: 0 40px 0 0;
+  }
+  
+    nav {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+  
+    nav li{
+    
+      display: inline;
+      margin: 0 10px 0 0;
+  }
+
+  
+    #logoJoJo{
+      display:block;
+      margin:auto;
+  }
+  
+    #section-portada {
+        float: left;
+        width: auto;
+    }
+  
+    #info-extra{
+        float: none;
+        width: auto;
+        height: auto;
+      }
+    
+      #llamanos{
+        float: none;
+        width: auto;
+      }
+    
+      #sugerencias{
+        float: none;
+        width: auto;
+      }
+    
+      #redes{
+        float: none;
+        width: auto;
+      }
+      #section-ingresar{
+        float: none;
+        width: auto;
+      }
+    
+      #ingresar-datos{
+        width: 93%;
+    }
+    
+    #mandar-datos{
+        width: 50%;
+    }
+    #section-ingresar,#section-registrar{
+        padding: 15% 5% 10% 5%;
+        width: auto;
+        height: auto;
+    }
+    #productoMuestra{
+        float: none;
+        width: auto;
+    }
+    #productoMuestra img:hover{
+        height: 250px;
+        width: 250px;
+    }
+    #imagenProducto{
+        float: none;
+        width: auto;
+    }
+    
+    #imagenProducto img{
+       height: 350px;
+       width: 350px;
+       display:block;
+       margin:auto;
+    }
+    
+    #detallesProducto{
+        float: none;
+        width: auto;
+    }
+    #detallesProducto img{
+        height: 50px;
+    
+    }
+    
+    .infoProducto{
+        padding:5% 15% 0% 15%;
+    }
+}
+
+
+@media screen and (max-width: 498px){
+    header {
+        height: auto;
+        width: auto;
+    }
+  
+    #header-logo{
+      float: none;
+      height: auto;
+      width: auto;
+  }
+  
+  #buscador{
+      float: none;
+      text-align: center;
+   }
+   
+    #busca {
+        width: 300px;
+     }
+  
+     #menu-header{
+      float: none;
+      height: auto;
+      width: auto;
+     }
+  
+     #menu-header li{
+      display:inline;
+      margin: 0 80px 0 0;
+  }
+  
+    nav {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+  
+    nav li{
+      display: block;
+      margin: 0 10px 9px 0;
+  }
+  
+  
+    #logoJoJo{
+      display:block;
+      margin:auto;
+  }
+  
+    #section-portada {
+        float: left;
+        width: auto;
+    }
+
+    #info-extra{
+        float: none;
+        width: auto;
+        height: auto;
+      }
+    
+      #llamanos{
+        float: none;
+        width: auto;
+      }
+    
+      #sugerencias{
+        float: none;
+        width: auto;
+      }
+    
+      #redes{
+        float: none;
+        width: auto;
+      }
+      #section-ingresar{
+        float: none;
+        width: auto;
+      }
+    
+      #ingresar-datos{
+        width: 90%;
+    }
+    
+    #mandar-datos{
+        width: 65%;
+    }
+    #section-ingresar,#section-registrar{
+        padding: 45% 5% 10% 5%;
+        width: auto;
+        height: auto;
+    }
+    #productoMuestra{
+        float: none;
+        width: auto;
+    }
+    #productoMuestra img:hover{
+        height: 250px;
+        width: 250px;
+    }
+    #imagenProducto{
+        float: none;
+        width: auto;
+    }
+    
+    #imagenProducto img{
+       height: 250px;
+       width: 250px;
+       display:block;
+       margin:auto;
+    }
+    
+    #detallesProducto{
+        float: none;
+        width: auto;
+    }
+    #detallesProducto img{
+        height: 35px;
+    
+    }
+    
+    .infoProducto{
+        padding:5% 15% 0% 15%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    header {
+        height: auto;
+        width: auto;
+    }
+  
+    #header-logo{
+      float: none;
+      height: auto;
+      width: auto;
+  }
+  
+  #buscador{
+      float: none;
+      text-align: center;
+   }
+   
+    #busca {
+       width: 220px;
+     }
+  
+     #menu-header{
+      float: none;
+      height: auto;
+      width: auto;
+     }
+  
+     #menu-header li{
+      display: inline;
+      margin: 0 30px 0 0;
+  }
+  
+    nav {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+  
+    nav li{
+      display: block;
+      margin: 0 40px 9px 0;
+  }
+  
+  
+    #logoJoJo{
+      display:block;
+      margin:auto;
+  }
+  
+    #section-portada {
+        float: left;
+        width: auto;
+    }
+  
+    #info-extra{
+      float: none;
+      width: auto;
+      height: auto;
+    }
+  
+    #llamanos{
+      float: none;
+      width: auto;
+    }
+  
+    #sugerencias{
+      float: none;
+      width: auto;
+    }
+  
+    #redes{
+      float: none;
+      width: auto;
+    }
+
+    #section-ingresar{
+        float: none;
+        width: auto;
+      }
+    
+      #ingresar-datos{
+        width: 89%;
+    }
+    
+    #mandar-datos{
+        width: 75%;
+    }
+    #section-ingresar,#section-registrar{
+        padding: 65% 5% 10% 5%;
+        width: auto;
+        height: auto;
+    }
+    #productoMuestra{
+        float: none;
+        width: auto;
+    }
+    #productoMuestra img:hover{
+        height: 250px;
+        width: 250px;
+    }
+
+    #imagenProducto{
+        float: none;
+        width: auto;
+    }
+    
+    #imagenProducto img{
+       height: 150px;
+       width: 150px;
+       display:block;
+       margin:auto;
+    }
+    
+    #detallesProducto{
+        float: none;
+        width: auto;
+    }
+    #detallesProducto img{
+        height: 35px;
+    
+    }
+    
+    .infoProducto{
+        padding:5% 15% 0% 15%;
+    }
+    
+}
+
+@media screen and (max-width: 323px){
+  header {
+      height: auto;
+      width: auto;
+  }
+
+  #header-logo{
+    float: none;
+    height: auto;
+    width: auto;
+}
+
+#buscador{
+    float: none;
+    text-align: center;
+ }
+ 
+  #busca {
+     width: auto;
+   }
+
+   #menu-header{
+    float: none;
+    height: auto;
+    width: auto;
+   }
+
+   #menu-header li{
+    display: block;
+    margin: 0 40px 15px 0;
+}
+
+  nav {
+      float: left;
+      width: 100%;
+      height: auto;
+  }
+
+  nav li{
+    display: block;
+    margin: 0 40px 9px 0;
+}
+
+  #logoJoJo{
+    display:block;
+    margin:auto;
+}
+
+  #section-portada {
+      float: left;
+      width: auto;
+      
+  }
+
+  #info-extra{
+    float: none;
+    width: auto;
+    height: auto;
+  }
+
+  #llamanos{
+    float: none;
+    width: auto;
+  }
+
+  #sugerencias{
+    float: none;
+    width: auto;
+  }
+
+  #redes{
+    float: none;
+    width: auto;
+  }
+
+  #ingresar-datos{
+    width: 85%;
+}
+
+#mandar-datos{
+    width: 85%;
+}
+#section-ingresar,#section-registrar{
+    padding: 70% 5% 10% 5%;
+    width: auto;
+    height: auto;
+}
+
+#productoMuestra{
+    float: none;
+    width: auto;
+}
+#productoMuestra img:hover{
+    height: 200px;
+    width: 200px;
+}
+
+#imagenProducto{
+    float: none;
+    width: auto;
+}
+
+#imagenProducto img{
+   height: 150px;
+   width: 150px;
+   display:block;
+   margin:auto;
+}
+
+#detallesProducto{
+    float: none;
+    width: auto;
+}
+#detallesProducto img{
+    height: 35px;
+
+}
+
+.infoProducto{
+    padding:5% 15% 0% 15%;
+}
+}
